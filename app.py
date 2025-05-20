@@ -227,4 +227,4 @@ demo = gr.Interface(
 )
 
 if __name__ == "__main__":
-    demo.launch(show_api=UI_SHOW_API, favicon_path='favicon.png')
+    demo.launch(show_api=UI_SHOW_API, favicon_path='favicon.png',share=True,server_name="0.0.0.0", server_port=8000)
